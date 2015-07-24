@@ -3,4 +3,4 @@ Done Swiftly
 
 A dead simple To-Do List iOS app written in Swift.
 
-<img src="https://raw.githubusercontent.com/avijeets/DoneSwiftly/master/iOS%20Simulator%20Screen%20Shot%20Jul%2023%2C%202015%2C%2011.01.05%20PM.png" alt="iOS Screenshot">
+<img src="https://raw.githubusercontent.com/avijeets/DoneSwiftly/master/iOS%20Simulator%20Screen%20Shot%20Jul%2023%2C%202015%2C%2011.01.05%20PM.png" alt="iOS Screenshot" width="250" height="445">
