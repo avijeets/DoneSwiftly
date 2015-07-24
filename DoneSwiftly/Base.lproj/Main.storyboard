@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
-        <!--To-do-->
+        <!--Task List-->
         <scene sceneID="iMM-s8-zSe">
             <objects>
                 <tableViewController id="3En-Oc-1qi" customClass="ToDoListTableViewController" sceneMemberID="viewController">
@@ -26,7 +26,7 @@
                             <outlet property="delegate" destination="3En-Oc-1qi" id="7j1-e6-Q01"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="To-do" id="JXx-5k-B46">
+                    <navigationItem key="navigationItem" title="Task List" id="JXx-5k-B46">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="iAL-Nj-KKB">
                             <connections>
                                 <segue destination="vLz-Qu-Afi" kind="show" id="ceE-J8-Ehm"/>
@@ -39,10 +39,10 @@
             </objects>
             <point key="canvasLocation" x="921" y="295"/>
         </scene>
-        <!--Add to-do Item-->
+        <!--New Task-->
         <scene sceneID="zot-Wg-S8E">
             <objects>
-                <viewController id="vLz-Qu-Afi" customClass="AddToDoViewController" customModule="ToDoListApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vLz-Qu-Afi" customClass="AddToDoViewController" customModule="DoneSwiftly" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Hv2-d0-dko"/>
                         <viewControllerLayoutGuide type="bottom" id="Bl5-w3-MRp"/>
@@ -87,7 +87,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" title="Add to-do Item" id="s6B-4w-QTk">
+                    <navigationItem key="navigationItem" title="New Task" id="s6B-4w-QTk">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="r0J-OF-Sn3">
                             <connections>
                                 <segue destination="2iH-ld-loW" kind="unwind" unwindAction="unwindToList:" id="uSu-xB-diV"/>
